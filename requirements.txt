@@ -1,0 +1,15 @@
+# --- core pipeline ---
+ultralytics==8.4.216      # YOLO26 detection + pose models
+supervision==0.32.0       # detections container, annotators, video utils
+trackers==2.7.0           # ByteTrack (moved out of supervision in 0.32)
+opencv-python>=4.10
+numpy>=2.0.2
+scikit-learn>=1.5         # K-means for team assignment
+pandas>=2.2               # stats export
+matplotlib>=3.8           # charts, player card
+pyyaml>=6.0               # config files
+tqdm>=4.66                # progress bars
+
+# --- dev tools ---
+pytest>=8.0
+ruff>=0.6

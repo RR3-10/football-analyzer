@@ -1,0 +1,15 @@
+{
+  "weights": "best.pt",
+  "split": "test",
+  "overall": {
+    "metrics/precision(B)": 0.9951338471947402,
+    "metrics/recall(B)": 1.0,
+    "metrics/mAP50(B)": 0.995,
+    "metrics/mAP50-95(B)": 0.81275,
+    "metrics/precision(P)": 0.9535383549026518,
+    "metrics/recall(P)": 0.9583333333333334,
+    "metrics/mAP50(P)": 0.9500000000000001,
+    "metrics/mAP50-95(P)": 0.7428962821492233,
+    "fitness": 1.5556462821492234
+  }
+}

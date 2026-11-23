@@ -1,0 +1,29 @@
+{
+  "weights": "best.pt",
+  "split": "test",
+  "overall": {
+    "metrics/precision(B)": 0.9589498042993292,
+    "metrics/recall(B)": 0.9017847364655577,
+    "metrics/mAP50(B)": 0.9040802391985021,
+    "metrics/mAP50-95(B)": 0.649509620838678,
+    "fitness": 0.649509620838678
+  },
+  "per_class": {
+    "ball": {
+      "AP50": 0.6962,
+      "AP50-95": 0.2636
+    },
+    "goalkeeper": {
+      "AP50": 0.9477,
+      "AP50-95": 0.7952
+    },
+    "player": {
+      "AP50": 0.9943,
+      "AP50-95": 0.843
+    },
+    "referee": {
+      "AP50": 0.9782,
+      "AP50-95": 0.6963
+    }
+  }
+}
